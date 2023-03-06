@@ -21,11 +21,21 @@ body{
     background-image: url(background-recipes.jpg);
     background-size: 100%;
 }
-a:hover {
+a:hover{
     background-color: whitesmoke;
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 4px;
     padding-top: 4px;
+    color: brown;
+    text-decoration: none;
+}
+a:link{
+    color:brown;
+    text-decoration: none;
+}
+a:visited{
+    color: brown;
+    text-decoration: none;
 }
