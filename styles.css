@@ -1,21 +1,27 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 h1,h2{
+    padding-left: 55px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 55px;
     background-color: white;
     border-radius: 20px;
     font-family: 'Fraunces', serif;
     font-size: 32px;
     color: brown;
-    margin-top: 100px;
-    margin-left: 500px;
-    margin-right: 500px;
     text-align: center;
 }
 .p{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 30px;
-    margin-left: 500px;
-    margin-right: 500px;
     border-radius: 25px;
     color: brown;
+    backdrop-filter: blur(10px);
 }
 body{
     background-image: url(background-recipes.jpg);
@@ -42,4 +48,26 @@ a:visited{
 a:active{
     text-decoration: none;
     color: brown;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.odin-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.more-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
