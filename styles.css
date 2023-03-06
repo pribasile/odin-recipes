@@ -1,0 +1,31 @@
+h1,h2{
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: brown;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+}
+.p{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px;
+    margin-left: 500px;
+    
+    margin-right: 500px;
+    border-radius: 25px;
+}
+body{
+    background-image: url(background-recipes.jpg);
+    background-size: 100%;
+}
+a:hover {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
