@@ -13,9 +13,9 @@ h1,h2{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 30px;
     margin-left: 500px;
-    
     margin-right: 500px;
     border-radius: 25px;
+    color: brown;
 }
 body{
     background-image: url(background-recipes.jpg);
